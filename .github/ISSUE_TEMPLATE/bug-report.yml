@@ -1,0 +1,44 @@
+name: Bug Report
+description: When a feature is not behaving as expected.
+labels: [bug]
+body:
+  - type: textarea
+    id: Describe
+    attributes:
+      label: Describe the bug?
+      description: A clear and concise description of what the bug is?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: To Reproduce
+      description: Steps to reproduce the behavior. Use bulletpoints and keep them as simple as possible - any steps that are not necessary to reproduce the issue should be omited.
+    validations:
+      required: true
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected behavior
+      description: A clear and concise description of what you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Add media to help explain your problem
+    validations:
+      required: false
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Add any other context about the problem here.
+    validations:
+      required: false
+  - type: textarea
+    id: reporters
+    attributes:
+      label: Reporters
+      description: Usernames / Discord handles of anyone (including yourself) who has reported/replicated this bug (will be used to credit in release notes).
